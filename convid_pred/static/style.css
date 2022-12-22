@@ -1,0 +1,90 @@
+/* 设置全局字体 */
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+        /* 设置背景颜色 */
+        body {
+            background-color: #f5f5f5;
+        }
+        /* 设置标题样式 */
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            color: #333;
+            margin: 60px 0 30px 0;
+        }
+        /* 设置表单样式 */
+        form {
+            width: 500px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        form p {
+            margin: 20px 0;
+        }
+        form label {
+            display: block;
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 8px;
+        }
+        form select, form input[type="text"], form input[type="checkbox"] {
+            width: 100%;
+            height: 40px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            padding: 0 10px;
+        }
+        form .btn {
+            display: block;
+            width: 100%;
+            height: 40px;
+            border: none;
+            border-radius: 4px;
+            background-color: #0095f6;
+            color: #fff;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        /* 设置结果样式 */
+        .result {
+            width: 500px;
+            margin: 60px auto 30px auto;
+            text-align: center;
+            font-size: 24px;
+            color: #fff;
+            padding: 20px;
+            border-radius: 4px;
+        }
+        .result.normal {
+            background-color: #00c853;
+        }
+        .result.abnormal {
+        background-color: #ff3d00;
+        }
+        /* 设置多选框样式 */
+        form input[type="checkbox"] {
+        margin: 0 10px 0 0;
+        }
+        form label.checkbox {
+        display: inline-block;
+        margin-right: 10px;
+        }
+        .symptom-label {
+          display: inline-block;
+          padding: 10px 20px;
+          background-color: blue;
+          color: white;
+          border-radius: 4px;
+        }
+
+        .symptom-checkbox {
+          display: none;
+        }
+
+        .symptom-text {
+          display: inline-block;
+          vertical-align: middle;
+          margin-left: 10px;
+        }
